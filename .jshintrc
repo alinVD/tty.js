@@ -18,7 +18,7 @@
 	"nonew"			: true,		// Prohibits use of constructor functions for side-effects
 	"notypeof"		: false,	// Suppresses warnings about invalid `typeof` values
 	"shadow"		: false,	// Suppresses warnings about variable shadowing
-	"singleGroups"	: true,		// Prohibits use of the grouping operation when not necessary
+	"singleGroups"	: false,	// Prohibits use of the grouping operation when not necessary
 	"undef"			: true, 	// Prohibits use of explicitly undeclared variables
 	"unused"		: true,		// Warns about declared but unused variables
 

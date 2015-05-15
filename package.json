@@ -2,17 +2,38 @@
   "name": "tty.js",
   "description": "A terminal for your browser",
   "author": "Christopher Jeffrey & Alin Dobra",
-  "version": "0.3",
+  "version": "0.3.0",
   "main": "./index.js",
   "preferGlobal": false,
   "repository": "git://github.com/alinVD/tty.js.git",
   "homepage": "https://github.com/alinVD/tty.js",
-  "bugs": { "url": "https://github.com/alinVD/tty.js/issues" },
-  "keywords": ["tty", "terminal", "term", "xterm"],
-  "tags": ["tty", "terminal", "term", "xterm"],
+  "bugs": {
+    "url": "https://github.com/alinVD/tty.js/issues"
+  },
+  "keywords": [
+    "tty",
+    "terminal",
+    "term",
+    "xterm"
+  ],
+  "tags": [
+    "tty",
+    "terminal",
+    "term",
+    "xterm"
+  ],
   "dependencies": {
     "pty.js": "0.2.7-1",
-    "term.js": "0.0.4"
+    "term.js": "0.0.4",
+    "es6-set": "~0.1.1",
+    "es6-map": "~0.1.1"
   },
-  "engines": { "node": ">= 0.8.0" }
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.2",
+    "load-grunt-tasks": "~3.1.0"
+  }
 }
