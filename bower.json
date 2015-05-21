@@ -1,0 +1,28 @@
+{
+  "name": "tty.js",
+  "main": "tty.min.js",
+  "version": "0.3.0",
+  "homepage": "https://github.com/alinVD/tty.js",
+  "authors": [
+    "Christopher Jeffrey",
+    "Christopher Dudley <chris@terainsights.com>",
+    "Alin Dobra <alin@terainsights.com>"
+  ],
+  "description": "A terminal for your browser",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "terminal",
+    "tty",
+    "vt100"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

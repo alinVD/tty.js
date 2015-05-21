@@ -1,0 +1,62 @@
+{
+	// Note: Options are listed in the order they are given in the JsHint documentation,
+	// and listed under the same headings used there. Note that JsHint is really bad about actually
+	// putting the options in the correct groups.
+
+	// Enforcing options
+	"bitwise"		: false,	// Prohibits bitwise operators (&, |, ^, etc.)
+	"curly"			: true,		// Require {} for new block or scope
+	"eqeqeq"		: true,		// Require triple equals i.e. `===`
+	"forin"			: true,		// Require `for in` loops to filter objet's items
+	"funcscope"		: false,	// Supresses warnings about using variables declared in control structures
+	"globals": {				// Global variables. true = RW, false = read only
+		"Terminal" : false
+	},
+	"latedef"		: "nofunc",	// Prohibit variable use before declaration.
+								// "nofunc" allows functions to be used before declaration.
+	"noarg"			: true,		// Prohibits use of `arguments.caller` and `arguments.callee`
+	"nonbsp"		: true,		// Warn about use of "non-breaking whitespace" characters
+	"nonew"			: true,		// Prohibits use of constructor functions for side-effects
+	"notypeof"		: false,	// Suppresses warnings about invalid `typeof` values
+	"shadow"		: false,	// Suppresses warnings about variable shadowing
+	"singleGroups"	: false,	// Prohibits use of the grouping operation when not necessary
+	"undef"			: true, 	// Prohibits use of explicitly undeclared variables
+	"unused"		: true,		// Warns about declared but unused variables
+
+	// Relaxing Options
+	"asi"			: false,	// Suppresses warnings about missing semicolons
+	"boss"			: false,	// Suppresses warnings about assignments in place of comparisons
+	"debug"			: true,		// Suppresses warnings about `debugger` statements
+	"eqnull"		: false,	// Suprresses warnings about `== null` comparisons
+	"esnext"		: true,		// Allows use of ECMAScript 6 syntaxes
+	"evil"			: false,	// Suppresses warnings about use of `eval`
+	"expr"			: false,	// Suppresses warnings about use of expressions where assignment or function calls expected
+	"lastsemic"		: true,		// Suppresses warnings about missing semicolon for last statement in a one-line block
+	// VV DEPRECATED VV
+	"laxbreak"		: true,		// Suppresses warnings about possibly unsafe line breakings in code
+	// VV DEPRECATED VV
+	"laxcomma"		: true,		// Suppresses warnings about comma-first coding style
+	"loopfunc"		: false,	// Suppresses warnings about declaring functions inside of loops
+	"strict"		: false,	// Require `use strict` pragma in every file/function
+
+	// Environments
+	"browser"		: true,		// Defines globals exposed by browsers
+	"browserify"	: true,		// Defines globals available from Browserify
+	"couch"			: false,	// Defines globals exposed by CouchDB
+	"devel"			: false,	// Defines globals used for simple debugging (e.g. `console`, `alert`, etc.)
+	"dojo"			: false,	// Defines globals exposed by Dojo Toolkit
+	"jasmine"		: false,	// Defines globals epxosed by the Jasmine unit testing framework
+	"jquery"		: false,	// Defines globals exposed by jQuery
+	"mocha"			: false,	// Defines globals exposed by the "BDD" and "TDD" UIs of Mocha
+	"mootools"		: false,	// Defines globals exposed by MooTools
+	"node"			: false,	// Defines globals available when running in NodeJS
+	"nonstandard"	: false,	// Defines common non-standard globals such as `escape` and `unescape`
+	"prototypejs"	: false,	// Defines globals from Prototype
+	"qunit"			: false,	// Defines globals exposed by QUnit
+	"rhino"			: false,	// Defines globals available when running in the Rhino runtime
+	"shelljs"		: false,	// Defines globals exposed by ShellJS
+	"typed"			: false,	// Defines globals for typed array constructors
+	"worker"		: false,	// Defines globals available when code is running inside of a WebWorker
+	"wsh"			: false,	// Defines globals available when running for the Windows Script Host
+	"yui"			: false		// Defines globals exposed by the YUI framework
+}
