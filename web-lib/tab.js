@@ -5,6 +5,7 @@ import {
 	sanitize,
 	indexOf
 } from './utils';
+import Terminal from 'term.js/src/term';
 
 /** 
  * Represents a single terminal that is part of a session.

@@ -10,7 +10,6 @@
 	"forin"			: true,		// Require `for in` loops to filter objet's items
 	"funcscope"		: false,	// Supresses warnings about using variables declared in control structures
 	"globals": {				// Global variables. true = RW, false = read only
-		"Terminal" : false
 	},
 	"latedef"		: "nofunc",	// Prohibit variable use before declaration.
 								// "nofunc" allows functions to be used before declaration.

@@ -8,6 +8,8 @@ import {
 
 import Tab from './tab';
 
+import Terminal from 'term.js/src/term';
+
 /**
  * Window
  */

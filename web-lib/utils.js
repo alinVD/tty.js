@@ -1,3 +1,5 @@
+import Terminal from 'term.js/src/term';
+
 /**
  * Helper functions
  */
